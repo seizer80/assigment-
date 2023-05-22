@@ -5,10 +5,7 @@
     }
     
 
-    .img{background-color: rgb(233, 169, 8);
-        font-size :14px ;
-        font-family: 'Poppins', sans-serif;
-        }
+   
 
  .box1{
 margin-left: 300px;
@@ -18,15 +15,13 @@ left: 300px;
 
         }
 
-        .hello{
+        h1 {
             width: 100px;
             height: 100px;
             background-color: red;
             position: relative;
             animation-name: example;
-            animation-duration: 8s;
-            animation-iteration-count: 2;
-            animation-direction: alternate;  
+            animation-duration: 4s;
           }
           
           @keyframes example {
@@ -36,16 +31,6 @@ left: 300px;
             75%  {background-color:green; left:0px; top:200px;}
             100% {background-color:red; left:0px; top:0px;}
           }
+        
 
-          .hello{ 
-            text-decoration:  none;
-           color:rgb(2, 24, 16);
-           font-size: 18px;
-           font-weight:bold;
-           border-radius: 12px;
-           padding: 12px 30px;
-           border: 2px solid rgb(220 150 3);
-        }
-       
-
-
+  
